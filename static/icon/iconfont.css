@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('./iconfont.eot?t=1586432416611'); /* IE9 */
+  src: url('./iconfont.eot?t=1586432416611#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO0AAsAAAAAB/QAAANnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDXIMZATYCJAMMCwgABCAFhG0HNxvgBlGUDUqZ7Edh3LaEzXnm8VmqphYEnNRTLvR/PHzt93ru7v4NgksUoIwEHB/FXFtfC2RZ2Rrf8axb2Tcg50ZFSF8qzNkTC1uhTnLqRAr1KAPqAH2ey/EtoAO5q75lOa69nh/1AowDCnQPbHscF0hA3jB2QUs8TqDTOF7ArcvrS0OFOS4QT1xbo2HGrjS0hnahViwt4p2W9vQ87SJvg+/HH9toJ2ll5tTtm7NJu+/1+3p+1iQ68py+TOcFW0XGAoBCnFT693Si/AKwTlXfba6tipCmSjUNgVwz1o3+8RJRmc3dYAYWEt9hjpTgu1JBwvWvoqId7zF0GplJh96ssmKokEgCgT6m9FSx91R0fF99dVM0+5z//Npi5EJj7Iyt40Kt40yp4QWmZ2f2PRf0o6ecnad0YxcxZjPoHCmLCjKyMlLTrTMmTMuFjnI5BUWFWU5ZYml2eU0FKpxtim7rA0jsZUW191MDawbwWZYKUFkGApMGXI1JqOxuajAWVNmJQhXfScLQAkynA5pWUj5qLCQi6k/hU9fYkbcSgUj6vjrLDg7qszQt23IaJTozdyaZmEHNEO5exm+YPGodSSYttjovOm0NJw1WAPmLLJ/Ss6jEv4CqqDJAhJVPhUvJIuI1U9VKaoFVBGD8P3F8R2qd+QfZXUfvke6R3UF272rQgsPU69TDgmjBZuQ6srkrMApWBW2GA1OjA3nJZiAZnxmQGTJOP4KKM4JIRWic89P2P1xcyIlZ+S/+xpv29c3TxdLf9q4Cvo3NNcJo41x0C5L2ewwE/0zRsa1oKtORiyJ35EYiu/dfcgmdmlsDw4PuhxtHOjcT2o0kSNqMIWs3QRRmAS1dFlG1W0WneRqruwwJ1hGlA3PSAEK/ASS9viLrt0cU5g4to/5Q9UdGp50Y2rLLVNyPN1NoOUx2btjLkMiyXfk4bH3DLgItTasC7o80c1MsxC+YL10RIZ1iRkhpb0Nzi91TCVkdnIYgEA5MxYORLz3zPFYEBNyrnrR0kZDGNqVAkwMTc9ZgXgwiYnndc+PC59/AVgho0gZBVfYPUhm3fyaEn2AH4qqPOglu5ZwQJdtWqJyFuUuJEFMHXgisvGCB1YM8YMgteQ7IxhQCqJN7V/1yeWP4fnugk7lnjhQ5inwv2eA8MlNxTSIA') format('woff2'),
+  url('./iconfont.woff?t=1586432416611') format('woff'),
+  url('./iconfont.ttf?t=1586432416611') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('./iconfont.svg?t=1586432416611#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ios:before {
+  content: "\e606";
+}
+
+.icon-android:before {
+  content: "\e641";
+}
+

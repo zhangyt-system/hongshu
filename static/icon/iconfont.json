@@ -1,0 +1,23 @@
+{
+  "id": "1744919",
+  "name": "红薯",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "124971",
+      "name": "ios",
+      "font_class": "ios",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "12868204",
+      "name": "android",
+      "font_class": "android",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    }
+  ]
+}
