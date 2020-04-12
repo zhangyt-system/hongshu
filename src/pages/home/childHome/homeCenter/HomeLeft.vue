@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <video autoplay="autoplay" muted="muted" loop="loop">
+  <div class="left">
+    <video autoplay="autoplay" muted="muted" loop="loop" poster="@/assets/image/vedioimg.png">
       <source src="@/assets/image/centent.mp4" type="video/mp4" />Your browser does not support the video tag.
     </video>
     <div class="iphone"></div>
@@ -13,23 +13,23 @@ export default {};
 
 <style scoped>
 .iphone {
-  width: 300px;
-  height: 600px;
+  /* width: 300px;
+  height: 600px; */
+  width: 230px;
+  height: 460px;
   background-image: url(//ci.xiaohongshu.com/3ca6607e-d4a5-4cb9-b455-a746713d8283);
   background-size: cover;
   position: relative;
 }
 video {
   position: absolute;
-  width: 260px;
-  height: 564px;
-  margin: 18px 20px;
-  border-radius: 29px;
+  width: 220px;
+  height: 450px;
+  margin: 10px 9px;
+  border-radius: 36px;
 }
-/* source { */
-/* min-width: 100%;
-  min-height: 100%;
-  height: auto;
-  width: auto;
+/* .left {
+  width: 200px;
+  height: 200px;
 } */
 </style>

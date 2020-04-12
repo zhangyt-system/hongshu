@@ -18,13 +18,13 @@ export default {
 
 <style scoped>
 .homecenter {
-  /* width: 660px;
-  height: 540px;
-  position: relative; */
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  /* flex-direction: row; */
   align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -60%);
+  position: absolute;
 }
 </style>

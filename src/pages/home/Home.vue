@@ -9,6 +9,7 @@
     </MainNavBar>
     <HomeBGVideo />
     <HomeCenter />
+    <FooterBar />
   </div>
 </template>
 
@@ -16,6 +17,7 @@
 import MainNavBar from "@/components/mainNavBar/MainNavBar";
 import HomeBGVideo from "./childHome/homeBgVideo/HomeVideo";
 import HomeCenter from "./childHome/homeCenter/HomeCenter";
+import FooterBar from "@/components/footerBar/FooterBar";
 export default {
   data() {
     return {
@@ -25,7 +27,8 @@ export default {
   components: {
     MainNavBar,
     HomeBGVideo,
-    HomeCenter
+    HomeCenter,
+    FooterBar
   }
 };
 </script>

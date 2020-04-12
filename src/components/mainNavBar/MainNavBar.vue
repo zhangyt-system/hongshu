@@ -10,7 +10,7 @@
         <span>首页</span>
       </NavBar>
       <NavBar path="/list" v-bind:navcolor="this.navcolor">
-        <span>精选</span>
+        <span>社区精选</span>
       </NavBar>
     </div>
   </div>

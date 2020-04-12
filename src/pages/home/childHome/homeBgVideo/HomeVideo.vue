@@ -1,7 +1,7 @@
 <template>
   <div>
-    <video autoplay="autoplay" muted="muted" loop="loop">
-      <source src="@/assets/image/背景视频.mp4" type="video/mp4" />Your browser does not support the video tag.
+    <video poster="@/assets/image/bgimg.png" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="@/assets/image/背景视频.mp4" type="video/mp4" />
     </video>
   </div>
 </template>
