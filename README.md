@@ -1,21 +1,13 @@
-# hongshu
+# 简介
 
-> 仿小红书官网项目。
+> 仿小红书官网项目。前端展示，如果对您有帮助，请给一个⭐️Star。
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 使用
+### 克隆或者下载
+### npm install 下载依赖
+### npm run dev 默认端口号8080
+# 版本更新
+v1.
+1. 基本功能实现
+2. 完成了首页、列表页、文章详情页的 开发
+3. 从后端拿取数据
