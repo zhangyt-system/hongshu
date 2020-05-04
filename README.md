@@ -1,6 +1,6 @@
 # hongshu
 
-> A Vue.js project
+> 仿小红书官网项目。
 
 ## Build Setup
 
