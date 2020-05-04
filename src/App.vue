@@ -7,7 +7,7 @@
   </div>
 </template>
 <script>
-import MainNavBar from "./components/mainNavBar/MainNavBar";
+import MainNavBar from "./components/MainNavBar";
 export default {
   name: "app",
   components: {

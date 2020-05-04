@@ -1,13 +1,11 @@
 <template>
-  <div>
+  <div class="totalnav">
     <div class="left">
-      <!-- <img src="@/assets/image/logo.png" /> -->
       <slot></slot>
     </div>
-
-    <div class="totalnav">
+    <div class="navtext">
       <NavBar path="/home" v-bind:navcolor="this.navcolor">
-        <span>首页</span>
+        <span class="home">首页</span>
       </NavBar>
       <NavBar path="/list" v-bind:navcolor="this.navcolor">
         <span>社区精选</span>
@@ -26,24 +24,28 @@ export default {
   },
   components: {
     NavBar
-  },
-  mounted() {
-    console.log(this.navcolor);
   }
 };
 </script>
 
 <style scoped>
+.totalnav {
+  position: absolute;
+}
 .left {
-  position: relative;
+  position: absolute;
   left: 96px;
   top: 40px;
 }
-.totalnav {
+.navtext {
+  position: relative;
   display: flex;
+  flex-direction: row;
+  left: 1300px;
   height: 106px;
   line-height: 106px;
-  flex-direction: row;
-  justify-content: flex-end;
+}
+.home {
+  color: lightgray;
 }
 </style>

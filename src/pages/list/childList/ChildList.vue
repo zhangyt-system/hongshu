@@ -1,26 +1,37 @@
 <template>
   <div class="childlist">
-    <ColList />
-    <ColList />
-    <ColList />
-    <ColList />
-    <ColList />
+    <ItemList v-for="(item,index) in indexList" :key="index" :indexItem="item"></ItemList>
   </div>
 </template>
 
 <script>
-import ColList from "./Itemlist";
+import ItemList from "./ItemList";
+
 export default {
+  data() {
+    return {};
+  },
+  props: {
+    indexList: {
+      type: Array
+    }
+  },
   components: {
-    ColList
+    ItemList
   }
 };
 </script>
 
 <style scoped>
 .childlist {
-  position: relative;
-  background-color: pink;
   width: 100%;
+  height: 1766px;
+  /* flex-grow: 1; */
+  display: flex;
+  /* 属性定义项目在交叉轴上如何对齐,从顶部开始 */
+  align-items: flex-start;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 </style>

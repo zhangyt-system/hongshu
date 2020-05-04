@@ -14,10 +14,11 @@
 </template>
 
 <script>
-import MainNavBar from "@/components/mainNavBar/MainNavBar";
+import MainNavBar from "./childHome/mainNavBar/MainNavBar";
 import HomeBGVideo from "./childHome/homeBgVideo/HomeVideo";
 import HomeCenter from "./childHome/homeCenter/HomeCenter";
-import FooterBar from "@/components/footerBar/FooterBar";
+import FooterBar from "./childHome/FooterBar";
+
 export default {
   data() {
     return {

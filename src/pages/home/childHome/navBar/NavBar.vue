@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar" :class="{active:isActive}" @click="navclick" v-bind:style="{color:navcolor}">
+  <div class="navbar" @click="navclick">
     <slot></slot>
   </div>
 </template>
@@ -10,14 +10,6 @@ export default {
     path: {
       type: String,
       required: true
-    },
-    navcolor: {
-      type: String
-    }
-  },
-  computed: {
-    isActive() {
-      return this.path == this.$route.path;
     }
   },
   methods: {
@@ -31,9 +23,6 @@ export default {
 <style scoped>
 .navbar {
   margin: 0 76px 0 0;
-  /* color: #fff; */
-}
-.active {
-  font-weight: 1000;
+  color: #333;
 }
 </style>

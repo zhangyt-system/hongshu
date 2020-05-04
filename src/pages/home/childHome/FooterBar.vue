@@ -28,7 +28,11 @@ export default {};
 
 <style scoped>
 .footer {
-  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -51,7 +55,7 @@ ul {
   align-items: center;
   list-style-type: none;
   position: relative;
-  color: #fff;
+  color: #333;
 }
 .bottom {
   width: 100%;
@@ -60,7 +64,6 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   height: 70px;
   font-size: 12px;
   line-height: 18px;
