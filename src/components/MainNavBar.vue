@@ -37,6 +37,7 @@ export default {
   position: relative;
   left: 96px;
   top: 40px;
+  cursor: pointer;
 }
 .navtext {
   display: flex;

@@ -29,6 +29,7 @@ export default {
 .navbar {
   margin: 0 76px 0 0;
   color: #333;
+  cursor: pointer;
 }
 .active {
   color: #ff2442;

@@ -32,7 +32,7 @@ export default {
   },
   created() {
     getIndexList().then(res => {
-      console.log(res.data[0].article);
+      console.log(res);
       this.indexList = res.data[0].article;
       console.log(this.indexList);
     });

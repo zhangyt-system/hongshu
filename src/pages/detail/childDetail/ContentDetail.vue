@@ -14,6 +14,11 @@
 <script>
 import { formatDate } from "@/common/utils";
 export default {
+  data() {
+    return {
+      active: false
+    };
+  },
   props: {
     contentInfo: Object
   },
@@ -43,5 +48,8 @@ p {
 }
 span {
   margin-right: 29px;
+}
+.iconActive {
+  color: red;
 }
 </style>

@@ -62,6 +62,7 @@ h2 {
   line-height: 35px;
   margin: 0 15px 0 0;
   border-radius: 20px;
+  cursor: pointer;
 }
 .ios {
   left: -5px;

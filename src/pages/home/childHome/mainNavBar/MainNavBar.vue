@@ -36,6 +36,7 @@ export default {
   position: absolute;
   left: 96px;
   top: 40px;
+  cursor: pointer;
 }
 .navtext {
   position: relative;
@@ -44,6 +45,7 @@ export default {
   left: 1300px;
   height: 106px;
   line-height: 106px;
+  cursor: pointer;
 }
 .home {
   color: lightgray;

@@ -33,5 +33,6 @@ export default {
   align-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 </style>
